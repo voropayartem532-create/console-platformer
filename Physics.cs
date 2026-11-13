@@ -1,19 +1,15 @@
 namespace PlatformerGame
 {
-    public class Player
+    public class Physics
     {
-        public int X { get; set; }
-        public int Y { get; set; }
-        public int Health { get; set; } = 3;
-
-        public void Move()
+        public void ApplyGravity(Player player)
         {
-            // Рух гравця
+            // Гравітація
         }
 
-        public void Jump()
+        public bool CheckCollision(Player player, Platform platform)
         {
-            // Стрибок
+            return false;
         }
     }
 }
